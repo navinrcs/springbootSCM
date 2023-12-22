@@ -101,7 +101,7 @@ public class HomeController {
 		
 		model.addAttribute("title", "signin");
 		
-		System.out.println("github");
+		System.out.println("tilte is added");
 		
 		return "login";
 		
