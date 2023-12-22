@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>This is home page</title>
+</head>
+
+<body>
+	<section class="banner d-flex justify-content-center align-items-center">
+		<div class="text-center">
+
+			<h1 class="font-weight-bold">Smart Contact Manager</h1>
+
+			<p>A contact manager is a software program that enables users to easily store and find contact information,
+				such as names,emails, and telephone numbers. </p>
+			<a th:href="@{/signup}">
+				<button class="btn btn-primary btn-large ">Get Start</button>
+			</a>
+		</div>
+
+	</section>
+</body>
+
+</html>
