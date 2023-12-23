@@ -112,4 +112,20 @@ body {
 	object-fit: cover;
     border-radius: 50%;
 }
+ /* css search*/
+ 
+ .search-container{
+	 
+	 position: relative;
+ }
+ 
+ .search-result{
+	 
+	 position: absolute;
+ }
+ 
+ 
+ 
+ 
+ 
 
