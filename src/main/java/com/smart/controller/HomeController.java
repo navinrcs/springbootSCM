@@ -102,6 +102,7 @@ public class HomeController {
 		model.addAttribute("title", "signin");
 		
 		System.out.println("tilte is added");
+		System.out.println("I am Navin whois writing codes");
 		
 		return "login";
 		
